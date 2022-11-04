@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+
+    background-image: url('img/weatherapp.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+}
+
+.continear {
+    margin: 5% 30%;
+    width: 80%;
+    position: relative;
+
+}
+
+h1,
+h5 {
+    text-align: center;
+    margin-right: 50%;
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10%;
+
+}
+
+label {
+    margin-left: 7%;
+}
+
+input {
+    width: 30%;
+    border-radius: 7%;
+    border: none;
+    text-align: center;
+}
+
+.btn {
+    width: 20%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    border-radius: 5%;
+    border: 1px solid white;
+}
+
+.infostyle {
+
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    border-radius: 3%;
+    width: 50%;
+    height: 30vh;
+    opacity: 40%;
+    padding: 5% 15%;
+
+}
+
+.feeling {
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+}
+
+.description {
+    width: 150%;
+    font-size: medium;
+    margin: 10% 10%;
+}
+
+@media only screen and (max-width:600px) {
+
+
+
+
+   
+.continear {
+    margin: 15% 20%;
+    width: 80%;
+    position: relative;
+
+}
+
+label {
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 23%;
+
+}
+
+.continear h1{
+    width: 70%;
+    margin-left: 5%;
+}
+
+.continear h5{
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.btn {
+    width: 30%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    border-radius: 5%;
+    border: 1px solid white;
+
+    padding: 5% 0%;
+}
+
+input {
+    width: 45%;
+    border-radius: 7%;
+    border: none;
+    text-align: center;
+    padding: 3% 0%;
+}
+
+}

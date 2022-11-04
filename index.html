@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet">
+
+
+<script defer src="app.js"></script>
+    <title>weather</title>
+</head>
+<body>
+<div class="continear">
+    <h1>Weather Journal App </h1>
+    <h5> Check the weather forecast</h5>
+
+    <form class="myform">
+        <label>Enter Zipcode here</label>
+        <input type="text" placeholder="zip" class="zipcod"  value="12211">
+
+        <label>How are you feeling today?</label>
+        <input type="text" placeholder="your feeling" class="feelings">
+
+        <button class="btn btn-primary">Generate</button>
+    </form>
+
+
+    <div class="info">
+
+        <div class="col1">
+            <h2><span id="temp"></span></h2>
+            <p><span id="description"></span></p>
+        </div>
+
+        <div class="col2">
+            <h2><span id="city"></span></h2>
+            <h2><span id="date"></span></h2>
+        </div>
+
+        <h2><span class="feeling"></span></h2>
+
+</div>
+
+
+    </div>
+</div>
+</body>
+</html>
